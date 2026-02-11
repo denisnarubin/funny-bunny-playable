@@ -20,7 +20,7 @@ cd funny-bunny-playable
 ```bash
 #Установите зависимости: 
 npm install
-#Запустите сервер:
+#Запуск:
 npm run dev
 ```
 
