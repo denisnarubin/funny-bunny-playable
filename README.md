@@ -12,15 +12,24 @@
 ### 1. Клонирование репозитория
 ```bash
 git clone https://github.com/denisnarubin/funny-bunny-playable.git
+#Переход в директорию проекта
 cd funny-bunny-playable
+```
 
 ### Запуск в режиме разработки:
-1. Установите зависимости: `npm install`
-2. Запустите сервер: `npm run dev`
+```bash
+#Установите зависимости: 
+npm install
+#Запустите сервер:
+npm run dev
+```
 
 ### Сборка финального index.html:
-1. Выполните команду: `npm run build`
-2. Сборщик Vite с плагином `vite-plugin-singlefile` упакует JS, CSS и логику в файл `dist/index.html`.
+```bash
+#Выполните команду: 
+npm run build
+#Сборщик Vite с плагином `vite-plugin-singlefile` упакует JS, CSS и логику в файл `dist/index.html`.
+```
 
 ## ⚙️ Конфигурация (Config)
 Все игровые настройки вынесены в файл `src/config.ts`. Там можно изменить:
